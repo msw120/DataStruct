@@ -1,0 +1,14 @@
+﻿  Main.c
+d:\study\vs_c\consoleapplication1\main.c(24): warning C4013: 'CreateFirstLink' undefined; assuming extern returning int
+d:\study\vs_c\consoleapplication1\main.c(24): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
+d:\study\vs_c\consoleapplication1\main.c(26): warning C4013: 'InsertLink' undefined; assuming extern returning int
+d:\study\vs_c\consoleapplication1\main.c(26): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
+d:\study\vs_c\consoleapplication1\main.c(28): warning C4013: 'DisplayLink' undefined; assuming extern returning int
+d:\study\vs_c\consoleapplication1\main.c(37): warning C4013: 'InitList_Sq' undefined; assuming extern returning int
+d:\study\vs_c\consoleapplication1\main.c(37): warning C4047: '=': 'SqList *' differs in levels of indirection from 'int'
+  ElemStruct.c
+  ElemMethod.c
+d:\study\vs_c\consoleapplication1\elemmethod.c(14): warning C4013: 'exit' undefined; assuming extern returning int
+  Generating Code...
+  ConsoleApplication1.vcxproj -> D:\Study\VS_C\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> D:\Study\VS_C\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

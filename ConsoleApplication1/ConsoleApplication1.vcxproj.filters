@@ -19,6 +19,9 @@
     <Filter Include="Source Files\P2">
       <UniqueIdentifier>{9c309a1d-5270-48e6-89e2-aa93f305d408}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\P3">
+      <UniqueIdentifier>{01e55381-1f83-4ec9-96d5-ba6c541c29a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Link.c">

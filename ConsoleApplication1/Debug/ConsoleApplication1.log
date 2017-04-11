@@ -1,12 +1,10 @@
 ﻿  NodeStruct.c
   Main.c
-d:\study\datastruct\consoleapplication1\main.c(24): warning C4013: 'CreateFirstLink' undefined; assuming extern returning int
-d:\study\datastruct\consoleapplication1\main.c(24): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
-d:\study\datastruct\consoleapplication1\main.c(26): warning C4013: 'InsertLink' undefined; assuming extern returning int
-d:\study\datastruct\consoleapplication1\main.c(26): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
-d:\study\datastruct\consoleapplication1\main.c(28): warning C4013: 'DisplayLink' undefined; assuming extern returning int
-d:\study\datastruct\consoleapplication1\main.c(37): warning C4013: 'InitList_Sq' undefined; assuming extern returning int
-d:\study\datastruct\consoleapplication1\main.c(37): warning C4047: '=': 'SqList *' differs in levels of indirection from 'int'
+d:\study\datastruct\consoleapplication1\main.c(31): warning C4013: 'CreateFirstLink' undefined; assuming extern returning int
+d:\study\datastruct\consoleapplication1\main.c(31): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
+d:\study\datastruct\consoleapplication1\main.c(33): warning C4013: 'InsertLink' undefined; assuming extern returning int
+d:\study\datastruct\consoleapplication1\main.c(33): warning C4047: '=': 'SNode *' differs in levels of indirection from 'int'
+d:\study\datastruct\consoleapplication1\main.c(35): warning C4013: 'DisplayLink' undefined; assuming extern returning int
   Link.c
 d:\study\datastruct\consoleapplication1\link.c(12): warning C4013: 'malloc' undefined; assuming extern returning int
 d:\study\datastruct\consoleapplication1\link.c(58): warning C4566: character represented by universal-character-name '\u5F00' cannot be represented in the current code page (1252)
@@ -19,7 +17,10 @@ d:\study\datastruct\consoleapplication1\link.c(59): warning C4013: 'exit' undefi
 d:\study\datastruct\consoleapplication1\link.c(144): warning C4013: 'free' undefined; assuming extern returning int
   ElemStruct.c
   ElemMethod.c
-d:\study\datastruct\consoleapplication1\elemmethod.c(15): warning C4013: 'exit' undefined; assuming extern returning int
+d:\study\datastruct\consoleapplication1\elemmethod.c(19): warning C4013: 'exit' undefined; assuming extern returning int
+d:\study\datastruct\consoleapplication1\elemmethod.c(73): warning C4047: '=': 'ElemType' differs in levels of indirection from 'ElemType *'
+d:\study\datastruct\consoleapplication1\elemmethod.c(86): warning C4047: '=': 'ElemType' differs in levels of indirection from 'ElemType *'
+d:\study\datastruct\consoleapplication1\elemmethod.c(89): warning C4047: 'return': 'ElemType *' differs in levels of indirection from 'ElemType'
   Generating Code...
 d:\study\datastruct\consoleapplication1\link.c(101): warning C4715: 'InsertLink': not all control paths return a value
   ConsoleApplication1.vcxproj -> D:\Study\DataStruct\ConsoleApplication1\Debug\ConsoleApplication1.exe

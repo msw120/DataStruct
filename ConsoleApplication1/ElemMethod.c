@@ -1,5 +1,4 @@
 ﻿#include "ConstManager.h"
-#include "ElemStruct.c"
 #include <malloc.h>
 
 //线性表初始化

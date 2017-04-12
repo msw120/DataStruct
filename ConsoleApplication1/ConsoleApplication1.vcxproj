@@ -146,14 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CircleLinkList\CircleLinkList.c" />
     <ClCompile Include="ElemMethod.c" />
-    <ClCompile Include="ElemStruct.c" />
     <ClCompile Include="Link.c" />
+    <ClCompile Include="LinkList\LinkSeqMethod.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="NodeStruct.c" />
+    <ClCompile Include="StaticLinkList\StaticLinkList.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CircleLinkList\CircleLinkList.h" />
     <ClInclude Include="ConstManager.h" />
+    <ClInclude Include="LinkList\LinkSeq.h" />
+    <ClInclude Include="StaticLinkList\StaticLinkSeq.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

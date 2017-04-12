@@ -23,6 +23,8 @@ SqList* InitList_Sq(SqList* list);
 
 void Destroy_Sq(SqList* list);
 
+void Clear_SqList(SqList* list);
+
 int Length_SqList(SqList* list);
 
 Status Insert_Sq(SqList* list, ElemType* node, int pos);

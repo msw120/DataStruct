@@ -36,12 +36,27 @@
     <ClCompile Include="ElemMethod.c">
       <Filter>Source Files\P2</Filter>
     </ClCompile>
-    <ClCompile Include="ElemStruct.c">
-      <Filter>Source Files\P2</Filter>
+    <ClCompile Include="LinkList\LinkSeqMethod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticLinkList\StaticLinkList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleLinkList\CircleLinkList.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConstManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList\LinkSeq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticLinkList\StaticLinkSeq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleLinkList\CircleLinkList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
